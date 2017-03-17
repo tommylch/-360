@@ -1730,13 +1730,29 @@
                     <view key="view" contentMode="scaleToFill" id="l7Y-Kf-8DN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1er-9Q-fPc">
+                                <rect key="frame" x="20" y="72" width="374" height="607"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">#360 is an open-source Application as a touring platform.You may find the source code in Github: https://github.com/tommylch/-360#360 is protected under Creative Commons Attribution-ShareAlike 4.0 International license.Reference: https://creativecommons.org/licenses/by-sa/4.0/You are free to:Share — copy and redistribute the material in any medium or formatAdapt — remix, transform, and build upon the materialfor any purpose, even commercially.The licensor cannot revoke these freedoms as long as you follow the license terms.Under the following terms:Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.Notices:You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="aLj-mJ-vTt" firstAttribute="top" secondItem="1er-9Q-fPc" secondAttribute="bottom" constant="8" symbolic="YES" id="FCc-Eb-epn"/>
+                            <constraint firstItem="1er-9Q-fPc" firstAttribute="trailing" secondItem="l7Y-Kf-8DN" secondAttribute="trailingMargin" id="urN-1i-l1D"/>
+                            <constraint firstItem="1er-9Q-fPc" firstAttribute="leading" secondItem="l7Y-Kf-8DN" secondAttribute="leadingMargin" id="xIT-nK-syK"/>
+                            <constraint firstItem="1er-9Q-fPc" firstAttribute="top" secondItem="gB8-5U-V3E" secondAttribute="bottom" constant="8" symbolic="YES" id="z71-JJ-mxr"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="License" id="F6N-Ie-7Sb"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tks-wh-NJv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3913" y="-2415"/>
+            <point key="canvasLocation" x="3911.594202898551" y="-2415.489130434783"/>
         </scene>
         <!--GLKit View Controller-->
         <scene sceneID="pYm-IA-ZFv">
@@ -2162,7 +2178,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="APQ-Sd-od2">
-                                <rect key="frame" x="0.0" y="64" width="414" height="623"/>
+                                <rect key="frame" x="20" y="72" width="374" height="607"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Libraries We Use
 The following sets forth attribution notices for third party software that may be contained in portions of the Instagram product. We thank the open source community for all of their contributions.
@@ -2224,10 +2240,10 @@ URL: https://github.com/leannethng/TrueFalseStarter
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="APQ-Sd-od2" secondAttribute="trailing" id="C0D-Tx-Fc3"/>
-                            <constraint firstItem="APQ-Sd-od2" firstAttribute="bottom" secondItem="pnu-rU-gWF" secondAttribute="top" id="miQ-aH-KGf"/>
-                            <constraint firstItem="APQ-Sd-od2" firstAttribute="leading" secondItem="Ix4-i4-vcB" secondAttribute="leading" id="qxm-m9-aOX"/>
-                            <constraint firstItem="APQ-Sd-od2" firstAttribute="top" secondItem="v0y-5G-EkO" secondAttribute="bottom" id="uGs-4k-Gyj"/>
+                            <constraint firstItem="APQ-Sd-od2" firstAttribute="leading" secondItem="Ix4-i4-vcB" secondAttribute="leadingMargin" id="IEN-TU-2rG"/>
+                            <constraint firstItem="APQ-Sd-od2" firstAttribute="top" secondItem="v0y-5G-EkO" secondAttribute="bottom" constant="8" symbolic="YES" id="IX1-gM-tMr"/>
+                            <constraint firstItem="pnu-rU-gWF" firstAttribute="top" secondItem="APQ-Sd-od2" secondAttribute="bottom" constant="8" symbolic="YES" id="R02-uE-U0a"/>
+                            <constraint firstItem="APQ-Sd-od2" firstAttribute="trailing" secondItem="Ix4-i4-vcB" secondAttribute="trailingMargin" id="VKa-lv-8Ie"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Open-source Libraries" id="dC8-md-TId"/>
